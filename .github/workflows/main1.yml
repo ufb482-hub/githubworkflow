@@ -1,7 +1,7 @@
 name: Schedule Jobs
 on: 
   schedule:
-    - cron: "12 08 * * *"
+    - cron: "0 0 * * *"
 jobs:
   run-script:
     runs-on: ubuntu-latest
